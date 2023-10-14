@@ -1,0 +1,28 @@
+codes-switch:
+	- herring06 27:07.79
+	- herring07 24:30.74
+	- herring08 17:55.59
+	- herring10 15:19.97
+	- herring13 08:48.30
+	- sastre01 31:52.94
+	- sastre06 27:16.43
+	- sastre09 36:40.75
+	- sastre11 35:51.27
+	- zeledon04 18:45.24
+	- zeledon08 23:25.17
+	- zeledon14 27:54.79
+
+english:
+	- eherring06 19:40.28
+	- eherring08 16:21.81
+	- eherring10 11:33.88
+	- esastre06 23:16.02
+	- herring09 24:46.79
+	- sastre13 20:37.68
+	- zeledon02 19:47.53
+
+spanish:
+	- sastre02 32:40.09
+	- ssastre01 15:21.91
+	- szeledon08 10:13.74
+	- zeledon01 19:09.36

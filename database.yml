@@ -1,0 +1,25 @@
+Databases:
+
+  MIAMI-CS: audio/code-switching/{uri}.wav
+  # english: Miami-Corpus/audio/english/{uri}.wav
+  # spanish: Miami-Corpus/audio/spanish/{uri}.wav
+
+Protocols:
+
+  MIAMI-CS:
+    SpeakerDiarization:
+      subset-a:
+          train:
+            uri: lists/code-switch-train.txt
+            annotation: truth-rttm/code-switching/{uri}.rttm
+            annotated: uems/{uri}.uem
+
+          development:
+            uri: lists/code-switch-dev.txt
+            annotation: truth-rttm/code-switching/{uri}.rttm
+            annotated: uems/{uri}.uem
+            
+          test:
+            uri: lists/code-switch-test.txt
+            annotation: truth-rttm/code-switching/{uri}.rttm
+            annotated: uems/{uri}.uem

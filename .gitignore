@@ -1,0 +1,30 @@
+# Mac-specific files
+.DS_Store
+._*
+
+# Exclude all logs, checkpoints, and configuration files
+lightning_logs/
+checkpoints/
+
+# Audio files
+*.wav
+
+# Python-specific exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+*.log
+*.sqlite
+*.db
+*.swp
+
+# Virtual environments
+venv/
+myenv/
+*.venv/
+.env
+
+# Jupyter notebook
+.ipynb_checkpoints/
