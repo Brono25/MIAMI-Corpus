@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#PBS -N finetuning
+#PBS -l select=1:ncpus=4:ngpus=1:mem=16gb
+#PBS -l walltime=04:00:00
+#PBS -M b.ashford@student.unsw.edu.au
+#PBS -m ae
+#PBS -j oe
+#PBS -o /home/z5146619/MIAMI-Corpus/pbs_output
+
+# load necessary modules
+module load cuda/10.1
+module load python/3.10.8
+
+# activate your Python environment
+source /home/z5146619/environments/pyannote-env/bin/activate
+
+cd $PBS_O_WORKDIR
+
+# run your python script
+python ../train.py
+
