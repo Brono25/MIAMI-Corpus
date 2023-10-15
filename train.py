@@ -39,8 +39,6 @@ task = Segmentation(
 model.task = task
 model.setup(stage="fit")
 
-
-
 # we monitor diarization error rate on the validation set
 # and use to keep the best checkpoint and stop early
 monitor, direction = task.val_monitor

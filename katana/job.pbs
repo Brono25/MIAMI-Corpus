@@ -18,5 +18,5 @@ source /home/z5146619/environments/pyannote-env/bin/activate
 cd $PBS_O_WORKDIR
 
 # run your python script
-python ../train.py
+python train.py
 
