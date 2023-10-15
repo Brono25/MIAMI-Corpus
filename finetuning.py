@@ -1,6 +1,6 @@
 import os
 from types import MethodType
-
+from pyannote.audio.pipelines import SpeakerDiarization
 from pyannote.audio import Model
 from pyannote.audio.tasks import Segmentation
 from pyannote.database import FileFinder, get_protocol
@@ -73,3 +73,8 @@ trainer.fit(model)
 
 finetuned_model = checkpoint.best_model_path
 
+# Create the pipeline
+pipeline = SpeakerDiarization(
+    segmentation=finetuned_model,
+    clustering="OracleClustering"
+)
