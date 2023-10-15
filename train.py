@@ -9,6 +9,8 @@ from pytorch_lightning.callbacks import (EarlyStopping, ModelCheckpoint,
                                          RichProgressBar)
 from torch.optim import Adam
 
+
+
 # Set environment for custom dataset
 os.environ["PYANNOTE_DATABASE_CONFIG"] = "Miami-Corpus/database.yml"
 dataset = get_protocol("MIAMI-CS.SpeakerDiarization.subset-a", {"audio": FileFinder()})
@@ -51,6 +53,7 @@ checkpoint = ModelCheckpoint(
     save_weights_only=False,
     filename="{epoch}",
     verbose=False,
+    dirpath='./checkpoints',
 )
 early_stopping = EarlyStopping(
     monitor=monitor,
