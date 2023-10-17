@@ -8,18 +8,18 @@ Protocols:
 
   MIAMI-CS:
     SpeakerDiarization:
-      subset-a:
+      Overfitting:
           train:
             uri: lists/code-switch-train.txt
-            annotation: truth-rttm/code-switching/{uri}.rttm
+            annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
 
           development:
             uri: lists/code-switch-dev.txt
-            annotation: truth-rttm/code-switching/{uri}.rttm
+            annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
             
           test:
             uri: lists/code-switch-test.txt
-            annotation: truth-rttm/code-switching/{uri}.rttm
+            annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
