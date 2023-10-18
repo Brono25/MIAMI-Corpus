@@ -1,25 +1,44 @@
 Databases:
 
   MIAMI-CS: audio/code-switching/{uri}.wav
-  # english: Miami-Corpus/audio/english/{uri}.wav
-  # spanish: Miami-Corpus/audio/spanish/{uri}.wav
+  MIAMI-MONO: 
+    MIAMI-ENG: Miami-Corpus/audio/english/{uri}.wav
+    MIAMI-SPA: Miami-Corpus/audio/spanish/{uri}.wav
 
 Protocols:
 
   MIAMI-CS:
-    SpeakerDiarization:
-      Overfitting:
+    Finetuning:
+      Split_1:
           train:
-            uri: lists/code-switch-train.txt
+            uri: lists/split_1/code-switch-train.txt
             annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
 
           development:
-            uri: lists/code-switch-dev.txt
+            uri: lists/split_1/code-switch-train.txt
             annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
             
           test:
-            uri: lists/code-switch-test.txt
+            uri: lists/split_1/code-switch-test.txt
+            annotation: reference/ref_{uri}.rttm
+            annotated: uems/{uri}.uem
+
+  MIAMI-MONO:
+    Finetuning:
+      Split_1:
+          train:
+            uri: lists/split_1/mono-train.txt
+            annotation: reference/ref_{uri}.rttm
+            annotated: uems/{uri}.uem
+
+          development:
+            uri: lists/split_1/mono-dev.txt
+            annotation: reference/ref_{uri}.rttm
+            annotated: uems/{uri}.uem
+            
+          test:
+            uri: lists/split_1/mono-test.txt
             annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
