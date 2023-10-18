@@ -2,21 +2,22 @@ Databases:
 
   MIAMI-CS: audio/code-switching/{uri}.wav
   MIAMI-MONO: 
-    MIAMI-ENG: audio/english/{uri}.wav
-    MIAMI-SPA: audio/spanish/{uri}.wav
+    - audio/english/{uri}.wav
+    - audio/spanish/{uri}.wav
 
 Protocols:
 
   MIAMI-CS:
     SpeakerDiarization:
-      Split_1:
+      split_1:
+          scope: file
           train:
             uri: lists/split_1/code-switch-train.txt
             annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
 
           development:
-            uri: lists/split_1/code-switch-train.txt
+            uri: lists/split_1/code-switch-dev.txt
             annotation: reference/ref_{uri}.rttm
             annotated: uems/{uri}.uem
             
@@ -27,7 +28,8 @@ Protocols:
 
   MIAMI-MONO:
     SpeakerDiarization:
-      Split_1:
+      split_1:
+          scope: file
           train:
             uri: lists/split_1/mono-train.txt
             annotation: reference/ref_{uri}.rttm

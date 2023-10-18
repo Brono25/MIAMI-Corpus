@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#PBS -N finetune_test
+#PBS -l select=1:ncpus=1:ngpus=1:mem=16gb
+#PBS -l walltime=00:20:00
+#PBS -M brono_25@hotmail.com
+#PBS -m ae
+#PBS -j oe
+#PBS -o /srv/scratch/z5146619/MIAMI-Corpus/pbs_output
+
+# load necessary modules
+module load cuda/10.1
+module load python/3.10.8
+
+# activate your Python environment
+source /home/z5146619/environments/pyannote-env/bin/activate
+
+cd $PBS_O_WORKDIR
+
+# run your python script
+python finetuning.py

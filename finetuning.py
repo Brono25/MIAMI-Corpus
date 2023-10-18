@@ -13,7 +13,7 @@ from torch.optim import Adam
 
 # Set environment for custom dataset
 os.environ["PYANNOTE_DATABASE_CONFIG"] = "Miami-Corpus/database.yml"
-dataset = get_protocol("MIAMI-CS.SpeakerDiarization.subset-a", {"audio": FileFinder()})
+dataset = get_protocol("MIAMI-MONO.SpeakerDiarization.split_1", {"audio": FileFinder()})
 model = Model.from_pretrained(
     "pyannote/segmentation", use_auth_token="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"
 )
