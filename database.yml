@@ -2,13 +2,13 @@ Databases:
 
   MIAMI-CS: audio/code-switching/{uri}.wav
   MIAMI-MONO: 
-    MIAMI-ENG: Miami-Corpus/audio/english/{uri}.wav
-    MIAMI-SPA: Miami-Corpus/audio/spanish/{uri}.wav
+    MIAMI-ENG: audio/english/{uri}.wav
+    MIAMI-SPA: audio/spanish/{uri}.wav
 
 Protocols:
 
   MIAMI-CS:
-    Finetuning:
+    SpeakerDiarization:
       Split_1:
           train:
             uri: lists/split_1/code-switch-train.txt
@@ -26,7 +26,7 @@ Protocols:
             annotated: uems/{uri}.uem
 
   MIAMI-MONO:
-    Finetuning:
+    SpeakerDiarization:
       Split_1:
           train:
             uri: lists/split_1/mono-train.txt
