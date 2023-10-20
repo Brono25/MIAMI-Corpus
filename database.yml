@@ -1,46 +1,38 @@
 Databases:
-
   MIAMI-CS: audio/code-switching/{uri}.wav
-  MIAMI-MONO: 
+  MIAMI-MONO:
     - audio/english/{uri}.wav
     - audio/spanish/{uri}.wav
-
 Protocols:
-
   MIAMI-CS:
     SpeakerDiarization:
       split_1:
-          scope: file
-          train:
-            uri: lists/split_1/code-switch-train.txt
-            annotation: reference/ref_{uri}.rttm
-            annotated: uems/{uri}.uem
-
-          development:
-            uri: lists/split_1/code-switch-dev.txt
-            annotation: reference/ref_{uri}.rttm
-            annotated: uems/{uri}.uem
-            
-          test:
-            uri: lists/split_1/code-switch-test.txt
-            annotation: reference/ref_{uri}.rttm
-            annotated: uems/{uri}.uem
-
+        scope: file
+        train:
+          uri: lists/split_1/code-switch-train.txt
+          annotation: reference/ref_{uri}.rttm
+          annotated: uems/{uri}.uem
+        development:
+          uri: lists/split_1/code-switch-dev.txt
+          annotation: reference/ref_{uri}.rttm
+          annotated: uems/{uri}.uem
+        test:
+          uri: lists/split_1/code-switch-test.txt
+          annotation: reference/ref_{uri}.rttm
+          annotated: uems/{uri}.uem
   MIAMI-MONO:
     SpeakerDiarization:
       split_1:
-          scope: file
-          train:
-            uri: lists/split_1/mono-train.txt
-            annotation: reference/ref_{uri}.rttm
-            annotated: uems/{uri}.uem
-
-          development:
-            uri: lists/split_1/mono-dev.txt
-            annotation: reference/ref_{uri}.rttm
-            annotated: uems/{uri}.uem
-            
-          test:
-            uri: lists/split_1/mono-test.txt
-            annotation: reference/ref_{uri}.rttm
-            annotated: uems/{uri}.uem
+        scope: file
+        train:
+          uri: lists/split_1/mono-train.txt
+          annotation: reference/ref_{uri}.rttm
+          annotated: uems/{uri}.uem
+        development:
+          uri: lists/split_1/mono-dev.txt
+          annotation: reference/ref_{uri}.rttm
+          annotated: uems/{uri}.uem
+        test:
+          uri: lists/split_1/mono-test.txt
+          annotation: reference/ref_{uri}.rttm
+          annotated: uems/{uri}.uem
