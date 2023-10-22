@@ -1,0 +1,184 @@
+common_test:
+  herring13: 8.8
+  sastre01: 31.9
+
+v1:
+  c_stats: "train: 155.7  dev: 35.9  test: 23.4"
+  m_stats: "train: 142.7  dev: 35.9  test: 23.2"
+  cs:
+    dev:
+      sastre11: 35.9 CS
+    test:
+      zeledon08: 23.4 CS
+    train:
+      herring06: 27.1 CS
+      zeledon14: 27.9 CS
+      herring08: 17.9 CS
+      sastre09: 36.7 CS
+      sastre06: 27.3 CS
+      zeledon04: 18.8 CS
+
+
+  mono:
+    dev:
+      ssastre01: 15.3 SPA
+      sastre13: 20.6 ENG
+    test:
+      esastre06: 23.2 ENG
+    train:
+      eherring06: 19.7 ENG
+      eherring08: 16.4 ENG
+      herring09: 24.8 ENG
+      sastre02: 32.7 SPA
+      szeledon08: 10.2 SPA
+      zeledon01: 19.1 SPA
+      zeledon02: 19.8 ENG
+
+v2:
+  c_stats: "train: 169.2  dev: 27.9  test: 17.9"
+  m_stats: "train: 161.7  dev: 24.8  test: 15.3"
+  cs:
+    dev:
+      zeledon14: 27.9 CS
+    test:
+      herring08: 17.9 CS
+    train:
+      sastre11: 35.9 CS
+      herring06: 27.1 CS
+      sastre09: 36.7 CS
+      sastre06: 27.3 CS
+      zeledon04: 18.8 CS
+      zeledon08: 23.4 CS
+  mono:
+    dev:
+      herring09: 24.8 ENG
+    test:
+      ssastre01: 15.3 SPA
+    train:
+      esastre06: 23.2 ENG
+      sastre13: 20.6 ENG
+      eherring06: 19.7 ENG
+      eherring08: 16.4 ENG
+      sastre02: 32.7 SPA
+      szeledon08: 10.2 SPA
+      zeledon01: 19.1 SPA
+      zeledon02: 19.8 ENG
+
+v3:
+  c_stats: "train: 151.8  dev: 35.9  test: 27.3"
+  m_stats: "train: 145.3  dev: 31.7  test: 24.8"
+  cs:
+    dev:
+      sastre11: 35.9 CS
+    test:
+      sastre06: 27.3 CS
+    train:
+      zeledon14: 27.9 CS
+      herring08: 17.9 CS
+      herring06: 27.1 CS
+      sastre09: 36.7 CS
+      zeledon04: 18.8 CS
+      zeledon08: 23.4 CS
+      
+  mono:
+    dev:
+      eherring08: 16.4 ENG
+      ssastre01: 15.3 SPA
+    test:
+      herring09: 24.8 ENG
+    train:
+      esastre06: 23.2 ENG
+      sastre13: 20.6 ENG
+      eherring06: 19.7 ENG
+      sastre02: 32.7 SPA
+      szeledon08: 10.2 SPA
+      zeledon01: 19.1 SPA
+      zeledon02: 19.8 ENG
+
+
+v4:
+  c_stats: "train: 145.5  dev: 42.2  test: 27.3"
+  m_stats: "train: 147.6  dev: 38.9  test: 15.3"
+  cs:
+    dev:
+      zeledon04: 18.8 CS
+      zeledon08: 23.4 CS
+    test:
+      sastre06: 27.3 CS
+    train:
+      sastre11: 35.9 CS
+      zeledon14: 27.9 CS
+      herring08: 17.9 CS
+      herring06: 27.1 CS
+      sastre09: 36.7 CS
+       
+  mono:
+    dev:
+      zeledon01: 19.1 SPA
+      zeledon02: 19.8 ENG  
+    test:
+      ssastre01: 15.3 SPA
+    train:
+      herring09: 24.8 ENG
+      eherring08: 16.4 ENG
+      esastre06: 23.2 ENG
+      sastre13: 20.6 ENG
+      eherring06: 19.7 ENG
+      sastre02: 32.7 SPA
+      szeledon08: 10.2 SPA
+
+
+v5:
+  c_stats: "train: 145.7  dev: 42.2  test: 27.1"
+  m_stats: "train: 146.8  dev: 39.7  test: 15.3"
+  cs:
+    dev:
+      zeledon04: 18.8 CS
+      zeledon08: 23.4 CS
+    test:
+      
+      herring06: 27.1 CS
+    train:
+      sastre11: 35.9 CS
+      zeledon14: 27.9 CS
+      herring08: 17.9 CS
+      sastre06: 27.3 CS
+      sastre09: 36.7 CS
+       
+  mono:
+    dev:
+      zeledon01: 19.1 SPA
+      sastre13: 20.6 ENG
+    test:
+      ssastre01: 15.3 SPA
+    train:
+      herring09: 24.8 ENG
+      eherring08: 16.4 ENG
+      esastre06: 23.2 ENG
+
+      eherring06: 19.7 ENG
+      sastre02: 32.7 SPA
+      szeledon08: 10.2 SPA
+      zeledon02: 19.8 ENG  
+
+validate:
+  cs:
+    herring06: 27.1 CS
+    herring08: 17.9 CS
+    sastre06: 27.3 CS
+    sastre09: 36.7 CS
+    sastre11: 35.9 CS
+    zeledon04: 18.8 CS
+    zeledon08: 23.4 CS
+    zeledon14: 27.9 CS
+  mono:
+    eherring06: 19.7 ENG
+    eherring08: 16.4 ENG
+    esastre06: 23.2 ENG
+    herring09: 24.8 ENG
+    sastre02: 32.7 SPA
+    sastre13: 20.6 ENG
+    ssastre01: 15.3 SPA
+    szeledon08: 10.2 SPA
+    zeledon01: 19.1 SPA
+    zeledon02: 19.8 ENG
