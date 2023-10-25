@@ -1,0 +1,150 @@
+Databases:
+  MIAMI-CS: /srv/scratch/z5146619/MIAMI-Corpus/audio/code-switching/{uri}.wav
+  MIAMI-MONO:
+    - /srv/scratch/z5146619/MIAMI-Corpus/audio/english/{uri}.wav
+    - /srv/scratch/z5146619/MIAMI-Corpus/audio/spanish/{uri}.wav
+Protocols:
+  MIAMI-CS:
+    SpeakerDiarization:
+      v1:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v2:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v3:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v4:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v5:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+  MIAMI-MONO:
+    SpeakerDiarization:
+      v1:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v2:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v3:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v4:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+      v5:
+        scope: file
+        train:
+          uri: null
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        development:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
+        test:
+          uri: null 
+          annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
+          annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem

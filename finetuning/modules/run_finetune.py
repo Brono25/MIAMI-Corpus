@@ -10,34 +10,35 @@ os.chdir(root)
 from finetune import finetune_segmentation_model
 
 
-
-CHECKPOINTS = "/srv/scratch/z5146619/MIAMI-Corpus/checkpoints"
-DATABASE_YML = "/srv/scratch/z5146619/MIAMI-Corpus/finetuning/split_1_protocol.yml"
 #os.environ["PYANNOTE_DATABASE_CONFIG"] = DATABASE_YML
+#db = registry.load_database(DATABASE_YML)
 
-db = registry.load_database(DATABASE_YML)
-
-def get_cs_model(split: int, version:int):
+def get_cs_model(split, version, checkpoint_path):
     dataset = get_protocol(
        f"MIAMI-CS.SpeakerDiarization.v{version}", 
         {"audio": FileFinder()})
     finetune_segmentation_model(dataset=dataset, 
-                                checkpoint_path=CHECKPOINTS, 
+                                checkpoint_path=checkpoint_path, 
                                 checkpoint_name=f'split_{split}_cs_v{version}')
 
 
-def get_mono_model(version, split):
+def get_mono_model(split, version, checkpoint_path):
     dataset = registry.get_protocol(
         f"MIAMI-MONO.SpeakerDiarization.v{version}", 
         {"audio": FileFinder()})
     finetune_segmentation_model(dataset=dataset, 
-                                checkpoint_path=CHECKPOINTS, 
+                                checkpoint_path=checkpoint_path, 
                                 checkpoint_name=f'split_{split}_mono_v{version}')
 
 
 
 if __name__ == "__main__":
+    
     split = sys.argv[1]
-    version = sys.argv[2]
-    get_cs_model(split, version)
-    get_mono_model(split, version)
+    protocol = f"/srv/scratch/z5146619/MIAMI-Corpus/finetuning/split_{split}_protocol.yml"
+    db = registry.load_database(protocol)
+    checkpoint_path = f"/srv/scratch/z5146619/MIAMI-Corpus/checkpoints/split_{split}"
+    for version in range(1,6):
+        if version == 4:
+            get_cs_model(split, version, checkpoint_path)
+            get_mono_model(split, version, checkpoint_path)

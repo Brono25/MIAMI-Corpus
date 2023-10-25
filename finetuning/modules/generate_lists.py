@@ -16,7 +16,14 @@ s3 = "/srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_3/split_3.yml"
 s4 = "/srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/split_4.yml"
 s5 = "/srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_5/split_5.yml"
 splits = [s1, s2, s3, s4, s5]
+protocol_template = "/srv/scratch/z5146619/MIAMI-Corpus/finetuning/modules/protocol_template.yml"
 
+with open(protocol_template, 'r') as yaml_file:
+    protocol = yaml.safe_load(yaml_file)
+
+def write_dict_to_yaml(dictionary, yaml_file_path):
+    with open(yaml_file_path, 'w') as yaml_file:
+        yaml.dump(dictionary, yaml_file, default_flow_style=False)
 
 def write_file(info, path):
     if os.path.exists(path) and os.path.getsize(path) > 0:
@@ -51,6 +58,14 @@ def create_versions(data, split_no):
         mono_dev_path = f"/srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_{split_no}/{version}/mono_dev.txt"
         mono_test_path = f"/srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_{split_no}/{version}/mono_test.txt"
         
+        protocol["Protocols"]["MIAMI-CS"]["SpeakerDiarization"][version]["train"]["uri"] = cs_train_path
+        protocol["Protocols"]["MIAMI-CS"]["SpeakerDiarization"][version]["development"]["uri"] = cs_dev_path
+        protocol["Protocols"]["MIAMI-CS"]["SpeakerDiarization"][version]["test"]["uri"] = cs_test_path
+
+        protocol["Protocols"]["MIAMI-MONO"]["SpeakerDiarization"][version]["train"]["uri"] = mono_train_path
+        protocol["Protocols"]["MIAMI-MONO"]["SpeakerDiarization"][version]["development"]["uri"] = mono_dev_path
+        protocol["Protocols"]["MIAMI-MONO"]["SpeakerDiarization"][version]["test"]["uri"] = mono_test_path
+
         cs_train_data = data[version]["cs"]["train"]
         cs_dev_data = data[version]["cs"]["dev"]
         cs_test_data = data[version]["cs"]["test"]
@@ -65,7 +80,8 @@ def create_versions(data, split_no):
         write_file(mono_train_data, mono_train_path)
         write_file(mono_dev_data, mono_dev_path)
         write_file(mono_test_data, mono_test_path)
-            
+        
+    
 
 
 if __name__ == "__main__":
@@ -73,8 +89,12 @@ if __name__ == "__main__":
     for i, s in enumerate(splits, start=1):
         with open(s, 'r') as yaml_file:
             data = yaml.safe_load(yaml_file)
+        
+
+        protocol_path = f"/srv/scratch/z5146619/MIAMI-Corpus/finetuning/split_{i}_protocol.yml"
 
         create_commons(data, i)
         create_versions(data, i)
+        write_dict_to_yaml(protocol, protocol_path)
      
 

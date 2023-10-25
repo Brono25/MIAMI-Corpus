@@ -1,0 +1,18 @@
+params:
+  clustering:
+    method: centroid
+    min_cluster_size: 15
+    threshold: 0.7153814381597874
+  segmentation:
+    min_duration_off: 0.5817029604921046
+    threshold: 0.4442333667381752
+pipeline:
+  name: pyannote.audio.pipelines.SpeakerDiarization
+  params:
+    clustering: AgglomerativeClustering
+    embedding: speechbrain/spkrec-ecapa-voxceleb
+    embedding_batch_size: 32
+    embedding_exclude_overlap: true
+    segmentation: /srv/scratch/z5146619/MIAMI-Corpus/checkpoints/split_4/split_4_cs_v3.ckpt
+    segmentation_batch_size: 32
+    use_auth_token: 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

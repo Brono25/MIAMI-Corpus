@@ -2,7 +2,7 @@
 
 #PBS -N finetune
 #PBS -l select=1:ncpus=1:ngpus=1:mem=16gb
-#PBS -l walltime=02:00:00
+#PBS -l walltime=04:00:00
 #PBS -M brono_25@hotmail.com
 #PBS -m ae
 #PBS -j oe
@@ -18,6 +18,6 @@ source /home/z5146619/environments/pyannote-env/bin/activate
 cd $PBS_O_WORKDIR
 
 # run your python script
-SPLIT=4
-python /srv/scratch/z5146619/MIAMI-Corpus/finetuning/modules/run_finetune.py $SPLIT
+SPLIT=5
+python /srv/scratch/z5146619/MIAMI-Corpus/finetuning_analysis/modules/diarization.py $SPLIT
 

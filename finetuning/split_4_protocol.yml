@@ -10,141 +10,141 @@ Protocols:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v1/cs_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v1/cs_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v1/cs_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v1/cs_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v1/cs_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v1/cs_train.txt
       v2:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v2/cs_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v2/cs_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v2/cs_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v2/cs_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v2/cs_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v2/cs_train.txt
       v3:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v3/cs_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v3/cs_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v3/cs_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v3/cs_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v3/cs_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v3/cs_train.txt
       v4:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v4/cs_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v4/cs_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v4/cs_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v4/cs_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v4/cs_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v4/cs_train.txt
       v5:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v5/cs_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v5/cs_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v5/cs_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v5/cs_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v5/cs_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v5/cs_train.txt
   MIAMI-MONO:
     SpeakerDiarization:
       v1:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v1/mono_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v1/mono_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v1/mono_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v1/mono_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v1/mono_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v1/mono_train.txt
       v2:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v2/mono_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v2/mono_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v2/mono_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v2/mono_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v2/mono_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v2/mono_train.txt
       v3:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v3/mono_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v3/mono_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v3/mono_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v3/mono_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v3/mono_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v3/mono_train.txt
       v4:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v4/mono_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v4/mono_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v4/mono_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v4/mono_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v4/mono_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v4/mono_train.txt
       v5:
         development:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v5/mono_dev.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v5/mono_dev.txt
         scope: file
         test:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v5/mono_test.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v5/mono_test.txt
         train:
           annotated: /srv/scratch/z5146619/MIAMI-Corpus/uems/{uri}.uem
           annotation: /srv/scratch/z5146619/MIAMI-Corpus/reference/ref_{uri}.rttm
-          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_1/v5/mono_train.txt
+          uri: /srv/scratch/z5146619/MIAMI-Corpus/finetuning/lists/split_4/v5/mono_train.txt
