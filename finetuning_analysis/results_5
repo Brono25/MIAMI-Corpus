@@ -107,3 +107,41 @@ Split_5_v5_test_mono: esastre06 : Base: DER=0.0546, MONO: DER=0.0276
 Split_5_v5_test_mono: ssastre01 : Base: DER=0.0804, MONO: DER=0.0586
 Split_5_v5_common: sastre06 : Base: DER=0.0935, CS: DER=0.0665, MONO: DER=0.0635
 Split_5_v5_common: zeledon04 : Base: DER=0.1345, CS: DER=0.1675, MONO: DER=0.1309
+Split_5_v1_train_cs: sastre11 : Base: DER=0.0985, CS: DER=0.0878
+Split_5_v1_train_cs: herring13 : Base: DER=0.0850, CS: DER=0.1368
+Split_5_v1_train_cs: herring06 : Base: DER=0.1114, CS: DER=0.0777
+Split_5_v1_train_cs: herring08 : Base: DER=0.0658, CS: DER=0.0931
+Split_5_v1_train_cs: sastre09 : Base: DER=0.0938, CS: DER=0.0483
+Split_5_v1_train_cs: zeledon14 : Base: DER=0.0880, CS: DER=0.0568
+Split_5_v1_dev_cs: sastre01 : Base: DER=0.0797, CS: DER=0.0563
+Split_5_v1_test_cs: zeledon08 : Base: DER=0.1018, CS: DER=0.1253
+Split_5_v1_train_mono: eherring06 : Base: DER=0.0744, MONO: DER=0.0419
+Split_5_v1_train_mono: eherring08 : Base: DER=0.0395, MONO: DER=0.0330
+Split_5_v1_train_mono: herring09 : Base: DER=0.0461, MONO: DER=0.0308
+Split_5_v1_train_mono: sastre02 : Base: DER=0.0628, MONO: DER=0.0344
+Split_5_v1_train_mono: sastre13 : Base: DER=0.0781, MONO: DER=0.0280
+Split_5_v1_train_mono: ssastre01 : Base: DER=0.0804, MONO: DER=0.0568
+Split_5_v1_train_mono: zeledon01 : Base: DER=0.0488, MONO: DER=0.0600
+Split_5_v1_dev_mono: zeledon02 : Base: DER=0.0829, MONO: DER=0.0636
+Split_5_v1_dev_mono: szeledon08 : Base: DER=0.0818, MONO: DER=0.1374
+Split_5_v1_test_mono: esastre06 : Base: DER=0.0546, MONO: DER=0.0271
+Split_5_v1_common: sastre06 : Base: DER=0.0935, CS: DER=0.0605, MONO: DER=0.0678
+Split_5_v1_common: zeledon04 : Base: DER=0.1345, CS: DER=0.1241, MONO: DER=0.1732
+Split_5_v2_train_cs: sastre11 : Base: DER=0.0985, CS: DER=0.0826
+Split_5_v2_train_cs: herring06 : Base: DER=0.1114, CS: DER=0.0769
+Split_5_v2_train_cs: herring08 : Base: DER=0.0658, CS: DER=0.0559
+Split_5_v2_train_cs: sastre09 : Base: DER=0.0938, CS: DER=0.0432
+Split_5_v2_train_cs: zeledon14 : Base: DER=0.0880, CS: DER=0.0541
+Split_5_v2_dev_cs: sastre01 : Base: DER=0.0797, CS: DER=0.0569
+Split_5_v2_dev_cs: herring13 : Base: DER=0.0850, CS: DER=0.0843
+Split_5_v2_test_cs: zeledon08 : Base: DER=0.1018, CS: DER=0.1235
+Split_5_v2_train_mono: eherring06 : Base: DER=0.0744, MONO: DER=0.0434
+Split_5_v2_train_mono: eherring08 : Base: DER=0.0395, MONO: DER=0.0309
+Split_5_v2_train_mono: herring09 : Base: DER=0.0461, MONO: DER=0.0297
+Split_5_v2_train_mono: sastre02 : Base: DER=0.0628, MONO: DER=0.0344
+Split_5_v2_train_mono: sastre13 : Base: DER=0.0781, MONO: DER=0.0277
+Split_5_v2_train_mono: ssastre01 : Base: DER=0.0804, MONO: DER=0.0563
+Split_5_v2_train_mono: szeledon08 : Base: DER=0.0818, MONO: DER=0.1127
+Split_5_v2_dev_mono: zeledon01 : Base: DER=0.0488, MONO: DER=0.0637
+Split_5_v2_dev_mono: zeledon02 : Base: DER=0.0829, MONO: DER=0.0616
+Split_5_v2_test_mono: esastre06 : Base: DER=0.0546, MONO: DER=0.0289
